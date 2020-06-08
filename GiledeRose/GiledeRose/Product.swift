@@ -18,4 +18,4 @@ class Product {
     }
 }
 
-
+class BackstagePassProduct: Product {}
