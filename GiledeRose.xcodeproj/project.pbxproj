@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		2CE2E5C6248E333F00A457CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5C5248E333F00A457CC /* Assets.xcassets */; };
 		2CE2E5C9248E333F00A457CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5C7248E333F00A457CC /* LaunchScreen.storyboard */; };
 		2CE2E5D4248E334000A457CC /* GiledeRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */; };
+		2CE2E5DF248E342F00A457CC /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5DE248E342F00A457CC /* Mock.generated.swift */; };
 		ABEF8819C890691300F2D5C4 /* Pods_GiledeRoseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */; };
 		EC025C80789C6222D24319F8 /* Pods_GiledeRose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24152F4D8E1A66CE1ABBF7A7 /* Pods_GiledeRose.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		2CE2E5CF248E334000A457CC /* GiledeRoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiledeRoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiledeRoseTests.swift; sourceTree = "<group>"; };
 		2CE2E5D5248E334000A457CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE2E5DE248E342F00A457CC /* Mock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.generated.swift; sourceTree = "<group>"; };
 		8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRoseTests.release.xcconfig"; path = "Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests.release.xcconfig"; sourceTree = "<group>"; };
 		916657F44AB1E50DD8FFEC64 /* Pods-GiledeRose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRose.release.xcconfig"; path = "Target Support Files/Pods-GiledeRose/Pods-GiledeRose.release.xcconfig"; sourceTree = "<group>"; };
 		A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiledeRoseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +87,6 @@
 				BDC793DA320EB36CF97BAD30 /* Pods-GiledeRoseTests.debug.xcconfig */,
 				8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -126,6 +127,7 @@
 		2CE2E5D2248E334000A457CC /* GiledeRoseTests */ = {
 			isa = PBXGroup;
 			children = (
+				2CE2E5DE248E342F00A457CC /* Mock.generated.swift */,
 				2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */,
 				2CE2E5D5248E334000A457CC /* Info.plist */,
 			);
@@ -310,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE2E5DF248E342F00A457CC /* Mock.generated.swift in Sources */,
 				2CE2E5D4248E334000A457CC /* GiledeRoseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

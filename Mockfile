@@ -1,0 +1,12 @@
+sourceryCommand: null
+GiledeRoseTests:
+  sources:
+    include:
+    - ./GiledeRose
+  output: ./GiledeRoseTests/Mock.generated.swift
+  targets:
+  - GiledeRoseTests
+  testable:
+  - GiledeRose
+  import:
+  - Foundation
