@@ -21,6 +21,8 @@
 		2CE2E5EC248E37CA00A457CC /* GiledeRoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5EA248E37CA00A457CC /* GiledeRoseViewController.swift */; };
 		2CE2E5ED248E37CA00A457CC /* GiledeRoseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5EB248E37CA00A457CC /* GiledeRoseViewController.xib */; };
 		2CE2E5EF248E37E800A457CC /* GiledeRoseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5EE248E37E800A457CC /* GiledeRoseInteractor.swift */; };
+		2CE2E5F2248E41D800A457CC /* GiledeRoseViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5F0248E41D800A457CC /* GiledeRoseViewCell.xib */; };
+		2CE2E5F3248E41D800A457CC /* GiledeRoseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5F1248E41D800A457CC /* GiledeRoseViewCell.swift */; };
 		ABEF8819C890691300F2D5C4 /* Pods_GiledeRoseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */; };
 		EC025C80789C6222D24319F8 /* Pods_GiledeRose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24152F4D8E1A66CE1ABBF7A7 /* Pods_GiledeRose.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		2CE2E5EA248E37CA00A457CC /* GiledeRoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiledeRoseViewController.swift; sourceTree = "<group>"; };
 		2CE2E5EB248E37CA00A457CC /* GiledeRoseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiledeRoseViewController.xib; sourceTree = "<group>"; };
 		2CE2E5EE248E37E800A457CC /* GiledeRoseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiledeRoseInteractor.swift; sourceTree = "<group>"; };
+		2CE2E5F0248E41D800A457CC /* GiledeRoseViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiledeRoseViewCell.xib; sourceTree = "<group>"; };
+		2CE2E5F1248E41D800A457CC /* GiledeRoseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiledeRoseViewCell.swift; sourceTree = "<group>"; };
 		8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRoseTests.release.xcconfig"; path = "Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests.release.xcconfig"; sourceTree = "<group>"; };
 		916657F44AB1E50DD8FFEC64 /* Pods-GiledeRose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRose.release.xcconfig"; path = "Target Support Files/Pods-GiledeRose/Pods-GiledeRose.release.xcconfig"; sourceTree = "<group>"; };
 		A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiledeRoseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +176,8 @@
 				2CE2E5EA248E37CA00A457CC /* GiledeRoseViewController.swift */,
 				2CE2E5EB248E37CA00A457CC /* GiledeRoseViewController.xib */,
 				2CE2E5EE248E37E800A457CC /* GiledeRoseInteractor.swift */,
+				2CE2E5F1248E41D800A457CC /* GiledeRoseViewCell.swift */,
+				2CE2E5F0248E41D800A457CC /* GiledeRoseViewCell.xib */,
 			);
 			path = GiledeRose;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 				2CE2E5C9248E333F00A457CC /* LaunchScreen.storyboard in Resources */,
 				2CE2E5C6248E333F00A457CC /* Assets.xcassets in Resources */,
 				2CE2E5C4248E333D00A457CC /* Main.storyboard in Resources */,
+				2CE2E5F2248E41D800A457CC /* GiledeRoseViewCell.xib in Resources */,
 				2CE2E5ED248E37CA00A457CC /* GiledeRoseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +356,7 @@
 				2CE2E5EC248E37CA00A457CC /* GiledeRoseViewController.swift in Sources */,
 				2CE2E5C1248E333D00A457CC /* ViewController.swift in Sources */,
 				2CE2E5EF248E37E800A457CC /* GiledeRoseInteractor.swift in Sources */,
+				2CE2E5F3248E41D800A457CC /* GiledeRoseViewCell.swift in Sources */,
 				2CE2E5E5248E369500A457CC /* Product.swift in Sources */,
 				2CE2E5E7248E371200A457CC /* ProductFactory.swift in Sources */,
 				2CE2E5BD248E333D00A457CC /* AppDelegate.swift in Sources */,
