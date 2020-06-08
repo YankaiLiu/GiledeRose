@@ -8,6 +8,7 @@
 
 import UIKit
 
+//sourcery: AutoMockable
 protocol GiledeRoseInteractorProtocol {
     func open()
     var dataSource: [Product] { get set }

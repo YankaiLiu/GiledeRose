@@ -8,6 +8,7 @@
 
 import UIKit
 
+//sourcery: AutoMockable
 protocol GiledeRoseShopProtocol {
     var products: [Product] { get set }
 }
