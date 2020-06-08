@@ -15,6 +15,7 @@
 		2CE2E5C9248E333F00A457CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5C7248E333F00A457CC /* LaunchScreen.storyboard */; };
 		2CE2E5D4248E334000A457CC /* GiledeRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */; };
 		2CE2E5DF248E342F00A457CC /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5DE248E342F00A457CC /* Mock.generated.swift */; };
+		2CE2E5E5248E369500A457CC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5E4248E369500A457CC /* Product.swift */; };
 		ABEF8819C890691300F2D5C4 /* Pods_GiledeRoseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */; };
 		EC025C80789C6222D24319F8 /* Pods_GiledeRose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24152F4D8E1A66CE1ABBF7A7 /* Pods_GiledeRose.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiledeRoseTests.swift; sourceTree = "<group>"; };
 		2CE2E5D5248E334000A457CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE2E5DE248E342F00A457CC /* Mock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.generated.swift; sourceTree = "<group>"; };
+		2CE2E5E4248E369500A457CC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRoseTests.release.xcconfig"; path = "Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests.release.xcconfig"; sourceTree = "<group>"; };
 		916657F44AB1E50DD8FFEC64 /* Pods-GiledeRose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRose.release.xcconfig"; path = "Target Support Files/Pods-GiledeRose/Pods-GiledeRose.release.xcconfig"; sourceTree = "<group>"; };
 		A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiledeRoseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,13 +115,9 @@
 		2CE2E5BB248E333D00A457CC /* GiledeRose */ = {
 			isa = PBXGroup;
 			children = (
-				2CE2E5BC248E333D00A457CC /* AppDelegate.swift */,
-				2CE2E5BE248E333D00A457CC /* SceneDelegate.swift */,
-				2CE2E5C0248E333D00A457CC /* ViewController.swift */,
-				2CE2E5C2248E333D00A457CC /* Main.storyboard */,
-				2CE2E5C5248E333F00A457CC /* Assets.xcassets */,
-				2CE2E5C7248E333F00A457CC /* LaunchScreen.storyboard */,
-				2CE2E5CA248E333F00A457CC /* Info.plist */,
+				2CE2E5E3248E367200A457CC /* GiledeRose */,
+				2CE2E5E2248E365B00A457CC /* Resources */,
+				2CE2E5E0248E364400A457CC /* Main */,
 			);
 			path = GiledeRose;
 			sourceTree = "<group>";
@@ -132,6 +130,35 @@
 				2CE2E5D5248E334000A457CC /* Info.plist */,
 			);
 			path = GiledeRoseTests;
+			sourceTree = "<group>";
+		};
+		2CE2E5E0248E364400A457CC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2CE2E5BC248E333D00A457CC /* AppDelegate.swift */,
+				2CE2E5BE248E333D00A457CC /* SceneDelegate.swift */,
+				2CE2E5C0248E333D00A457CC /* ViewController.swift */,
+				2CE2E5C2248E333D00A457CC /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2CE2E5E2248E365B00A457CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CE2E5C5248E333F00A457CC /* Assets.xcassets */,
+				2CE2E5C7248E333F00A457CC /* LaunchScreen.storyboard */,
+				2CE2E5CA248E333F00A457CC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CE2E5E3248E367200A457CC /* GiledeRose */ = {
+			isa = PBXGroup;
+			children = (
+				2CE2E5E4248E369500A457CC /* Product.swift */,
+			);
+			path = GiledeRose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE2E5C1248E333D00A457CC /* ViewController.swift in Sources */,
+				2CE2E5E5248E369500A457CC /* Product.swift in Sources */,
 				2CE2E5BD248E333D00A457CC /* AppDelegate.swift in Sources */,
 				2CE2E5BF248E333D00A457CC /* SceneDelegate.swift in Sources */,
 			);
