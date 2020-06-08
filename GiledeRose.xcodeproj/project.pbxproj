@@ -14,6 +14,8 @@
 		2CE2E5C6248E333F00A457CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5C5248E333F00A457CC /* Assets.xcassets */; };
 		2CE2E5C9248E333F00A457CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2E5C7248E333F00A457CC /* LaunchScreen.storyboard */; };
 		2CE2E5D4248E334000A457CC /* GiledeRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */; };
+		ABEF8819C890691300F2D5C4 /* Pods_GiledeRoseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */; };
+		EC025C80789C6222D24319F8 /* Pods_GiledeRose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24152F4D8E1A66CE1ABBF7A7 /* Pods_GiledeRose.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24152F4D8E1A66CE1ABBF7A7 /* Pods_GiledeRose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiledeRose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE2E5B9248E333D00A457CC /* GiledeRose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiledeRose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE2E5BC248E333D00A457CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE2E5BE248E333D00A457CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		2CE2E5CF248E334000A457CC /* GiledeRoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiledeRoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE2E5D3248E334000A457CC /* GiledeRoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiledeRoseTests.swift; sourceTree = "<group>"; };
 		2CE2E5D5248E334000A457CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRoseTests.release.xcconfig"; path = "Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests.release.xcconfig"; sourceTree = "<group>"; };
+		916657F44AB1E50DD8FFEC64 /* Pods-GiledeRose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRose.release.xcconfig"; path = "Target Support Files/Pods-GiledeRose/Pods-GiledeRose.release.xcconfig"; sourceTree = "<group>"; };
+		A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiledeRoseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B030968B200BF19BF680A4B7 /* Pods-GiledeRose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRose.debug.xcconfig"; path = "Target Support Files/Pods-GiledeRose/Pods-GiledeRose.debug.xcconfig"; sourceTree = "<group>"; };
+		BDC793DA320EB36CF97BAD30 /* Pods-GiledeRoseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiledeRoseTests.debug.xcconfig"; path = "Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC025C80789C6222D24319F8 /* Pods_GiledeRose.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEF8819C890691300F2D5C4 /* Pods_GiledeRoseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14DFDC4C99B6145E29D51A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24152F4D8E1A66CE1ABBF7A7 /* Pods_GiledeRose.framework */,
+				A1955DF8B2AE656192060B36 /* Pods_GiledeRoseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		170AAA15DF9D780CD1DA08E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B030968B200BF19BF680A4B7 /* Pods-GiledeRose.debug.xcconfig */,
+				916657F44AB1E50DD8FFEC64 /* Pods-GiledeRose.release.xcconfig */,
+				BDC793DA320EB36CF97BAD30 /* Pods-GiledeRoseTests.debug.xcconfig */,
+				8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2CE2E5B0248E333D00A457CC = {
 			isa = PBXGroup;
 			children = (
 				2CE2E5BB248E333D00A457CC /* GiledeRose */,
 				2CE2E5D2248E334000A457CC /* GiledeRoseTests */,
 				2CE2E5BA248E333D00A457CC /* Products */,
+				170AAA15DF9D780CD1DA08E4 /* Pods */,
+				14DFDC4C99B6145E29D51A03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CE2E5D8248E334000A457CC /* Build configuration list for PBXNativeTarget "GiledeRose" */;
 			buildPhases = (
+				E76A93C12AC874CD8421709D /* [CP] Check Pods Manifest.lock */,
 				2CE2E5B5248E333D00A457CC /* Sources */,
 				2CE2E5B6248E333D00A457CC /* Frameworks */,
 				2CE2E5B7248E333D00A457CC /* Resources */,
@@ -123,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CE2E5DB248E334000A457CC /* Build configuration list for PBXNativeTarget "GiledeRoseTests" */;
 			buildPhases = (
+				BD3BB0610DE38271954869A0 /* [CP] Check Pods Manifest.lock */,
 				2CE2E5CB248E334000A457CC /* Sources */,
 				2CE2E5CC248E334000A457CC /* Frameworks */,
 				2CE2E5CD248E334000A457CC /* Resources */,
+				774636052053E1A969E014A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		774636052053E1A969E014A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiledeRoseTests/Pods-GiledeRoseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3BB0610DE38271954869A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiledeRoseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E76A93C12AC874CD8421709D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiledeRose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CE2E5B5248E333D00A457CC /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		2CE2E5D9248E334000A457CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B030968B200BF19BF680A4B7 /* Pods-GiledeRose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +478,7 @@
 		};
 		2CE2E5DA248E334000A457CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916657F44AB1E50DD8FFEC64 /* Pods-GiledeRose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +496,7 @@
 		};
 		2CE2E5DC248E334000A457CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC793DA320EB36CF97BAD30 /* Pods-GiledeRoseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +518,7 @@
 		};
 		2CE2E5DD248E334000A457CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF5ADEF4D8B765C86FB85B0 /* Pods-GiledeRoseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
