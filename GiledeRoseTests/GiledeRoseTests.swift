@@ -17,7 +17,7 @@ class GiledeRoseTests: XCTestCase {
          
     }
     
-    func testProductPriceAlwaysLargeThanZero() {
+    func test_product_price_always_large_than_zero() {
         //Given
         let product = Product(sellIn: 1, quality: 1)
         let mockShop = GiledeRoseShopProtocolMock()
@@ -38,7 +38,7 @@ class GiledeRoseTests: XCTestCase {
         wait(for: [expectation], timeout: 10)
     }
     
-    func testProductPriceAlwaysLessThanFifty() {
+    func test_product_price_always_less_than_fifty() {
         //Given
         let product = BackstagePassProduct(sellIn: 2, quality: 48)
         let mockShop = GiledeRoseShopProtocolMock()
@@ -59,7 +59,7 @@ class GiledeRoseTests: XCTestCase {
         wait(for: [expectation], timeout: 15)
     }
     
-    func testNormalProductDecreaseSpeedWhenNotExpired() {
+    func test_normal_product_decrease_speed_when_not_expired() {
         //Given
         let product = Product(sellIn: 1, quality: 20)
         let mockShop = GiledeRoseShopProtocolMock()
@@ -80,7 +80,7 @@ class GiledeRoseTests: XCTestCase {
         wait(for: [expectation], timeout: 10)
     }
     
-    func testNormalProductDecreaseSpeedWhenExpired() {
+    func test_normal_product_decrease_speed_when_expired() {
         //Given
         let product = Product(sellIn: 1, quality: 20)
         let mockShop = GiledeRoseShopProtocolMock()
@@ -101,7 +101,7 @@ class GiledeRoseTests: XCTestCase {
         wait(for: [expectation], timeout: 10)
     }
     
-    func testPassProductIncreaseSpeedWhenInFiveToTenDays() {
+    func test_pass_product_increase_speed_when_in_five_to_ten_days() {
         //Given
          let product = BackstagePassProduct(sellIn: 7, quality: 30)
          let mockShop = GiledeRoseShopProtocolMock()
@@ -122,7 +122,7 @@ class GiledeRoseTests: XCTestCase {
          wait(for: [expectation], timeout: 10)
     }
     
-    func testPassProductIncreaseSpeedWhenMoreThanTenDays() {
+    func test_pass_product_increase_speed_when_more_than_ten_days() {
         //Given
          let product = BackstagePassProduct(sellIn: 13, quality: 30)
          let mockShop = GiledeRoseShopProtocolMock()
@@ -143,7 +143,7 @@ class GiledeRoseTests: XCTestCase {
          wait(for: [expectation], timeout: 10)
     }
     
-    func testPassProductIncreaseSpeedWhenInZeroToFiveDays() {
+    func test_pass_product_increase_speed_when_in_zero_to_five_days() {
         //Given
          let product = BackstagePassProduct(sellIn: 4, quality: 30)
          let mockShop = GiledeRoseShopProtocolMock()
@@ -164,7 +164,7 @@ class GiledeRoseTests: XCTestCase {
          wait(for: [expectation], timeout: 10)
     }
     
-    func testPassProductIncreaseSpeedWhenExpired() {
+    func test_passproduct_increase_speed_when_expired() {
         //Given
          let product = BackstagePassProduct(sellIn: 1, quality: 49)
          let mockShop = GiledeRoseShopProtocolMock()
